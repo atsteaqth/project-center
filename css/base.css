@@ -1,0 +1,36 @@
+@import "fonts.css";
+body {
+    margin: 0;
+    font-family: 'TT Firs Neue', serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+h2 {
+    /*TODO*/
+}
+
+h3 {
+    /*TODO*/
+}
+
+h4 {
+    /*TODO*/
+}
+
+.text {
+    /*TODO*/
+}
+
+.send-button {
+    /*TODO*/
+}
+
+.feedback-button {
+    /*TODO*/
+}
+
+
