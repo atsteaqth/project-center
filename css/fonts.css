@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('../fonts/firsneue/TTFirsNeue-Bold.woff2') format('woff2'),
+    url('../fonts/firsneue/TTFirsNeue-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('../fonts/firsneue/TTFirsNeue-BlackItalic.woff2') format('woff2'),
+    url('../fonts/firsneue/TTFirsNeue-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('../fonts/firsneue/TTFirsNeue-Black.woff2') format('woff2'),
+    url('../fonts/firsneue/TTFirsNeue-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('../fonts/firsneue/TTFirsNeue-DemiBold.woff2') format('woff2'),
+    url('../fonts/firsneue/TTFirsNeue-DemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('../fonts/firsneue/TTFirsNeue-Light.woff2') format('woff2'),
+    url('../fonts/firsneue/TTFirsNeue-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('../fonts/firsneue/TTFirsNeue-LightItalic.woff2') format('woff2'),
+    url('../fonts/firsneue/TTFirsNeue-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('../fonts/firsneue/TTFirsNeue-ExtraBold.woff2') format('woff2'),
+    url('../fonts/firsneue/TTFirsNeue-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('../fonts/firsneue/TTFirsNeue-ExtraLightItalic.woff2') format('woff2'),
+    url('../fonts/firsneue/TTFirsNeue-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('../fonts/firsneue/TTFirsNeue-Italic.woff2') format('woff2'),
+    url('../fonts/firsneue/TTFirsNeue-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('../fonts/firsneue/TTFirsNeue-ExtraBoldItalic.woff2') format('woff2'),
+    url('../fonts/firsneue/TTFirsNeue-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('../fonts/firsneue/TTFirsNeue-BoldItalic.woff2') format('woff2'),
+    url('../fonts/firsneue/TTFirsNeue-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('../fonts/firsneue/TTFirsNeue-ExtraLight.woff2') format('woff2'),
+    url('../fonts/firsneue/TTFirsNeue-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('../fonts/firsneue/TTFirsNeue-DemiBoldItalic.woff2') format('woff2'),
+    url('../fonts/firsneue/TTFirsNeue-DemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('../fonts/firsneue/TTFirsNeue-ThinItalic.woff2') format('woff2'),
+    url('../fonts/firsneue/TTFirsNeue-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('../fonts/firsneue/TTFirsNeue-Thin.woff2') format('woff2'),
+    url('../fonts/firsneue/TTFirsNeue-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('../fonts/firsneue/TTFirsNeue-Medium.woff2') format('woff2'),
+    url('../fonts/firsneue/TTFirsNeue-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('../fonts/firsneue/TTFirsNeue-MediumItalic.woff2') format('woff2'),
+    url('../fonts/firsneue/TTFirsNeue-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('../fonts/firsneue/TTFirsNeue-Regular.woff2') format('woff2'),
+    url('../fonts/firsneue/TTFirsNeue-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
