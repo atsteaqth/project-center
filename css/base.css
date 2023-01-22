@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 0;
+    padding: 15px 0 8px 0;
 }
 
 .menu {
@@ -21,9 +21,10 @@ body {
 }
 .menu_item {
     padding-right: 34px;
+    color: #2C2C2C;
 }
 .phone {
-    font-weight: bold;
+    font-weight: 600;
     font-size: 22px;
 }
 .underline {
@@ -32,8 +33,7 @@ body {
     font-size: 12px;
 }
 .work_wrapper {
-    height: 500px;
-    background-color: black;
+    background-color: #2C2C2C;
     background-repeat: no-repeat;
     background-position: right;
     width: 100%;
@@ -42,36 +42,44 @@ body {
 .work span {
     color: #FFB816;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 600;
 }
 .work h1 {
-    margin-top: 0;
+    margin: 0;
+    padding-top: 8px;
+    letter-spacing: 1px;
 }
-.work p {
+.services p {
     color: #C9C9C9;
+    line-height: 25px;
+    margin-bottom: 0;
 }
 .work {
-    padding-top: 94px;
+    padding: 92px 0 17px 0;
+
 }
 .button {
-    padding-top: 40px;
+    padding: 40px 0 76px 0;
+
 }
 .button button {
     height: 53px;
     min-width: 204px;
-    border-radius: 5px;
+    border-radius: 2px;
     border: none;
     background-color: #FFB816;
     font-size: 16px;
     font-family: 'TT Firs Neue', serif;
-    font-weight: 700;
+    font-weight: 600;
     cursor: pointer;
+    color: #2C2C2C;
 }
 
 
 h1 {
     font-size: 50px;
     color: white;
+    font-weight: 600;
 }
 
 h2 {
