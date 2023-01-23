@@ -1,0 +1,103 @@
+@import "colors";
+@import "base";
+@import "buttons";
+
+
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  &_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0 8px 0;
+  }
+  &_item {
+    padding-right: 34px;
+    color: $black;
+  }
+}
+
+.work {
+  padding: 92px 0 17px 0;
+  &_wrapper {
+    background-color: $black;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  span {
+    color: $orange;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  h1 {
+    margin: 0;
+    padding-top: 8px;
+    letter-spacing: 1px;
+  }
+}
+
+
+.phone {
+  font-weight: 600;
+  font-size: 22px;
+}
+.underline {
+  text-decoration: underline;
+  color: #606060;
+  font-size: 12px;
+}
+.services p {
+  color: #C9C9C9;
+  line-height: 25px;
+  margin-bottom: 0;
+}
+.chapter_wrapper {
+  margin-bottom: 100px;
+}
+.chapter {
+  text-align: center;
+  margin-bottom: 60px;
+  position: relative;
+  &:after {
+    content: '';
+    width: 121px;
+    height: 26px;
+    background-color: $orange;
+    display: block;
+    margin: 0;
+    position: absolute;
+    left: 490px;
+    bottom: 1px;
+    z-index: -1;
+  }
+}
+.service {
+  display: flex;
+  justify-content: center;
+  &_cadastral, &_geodesy {
+    position: relative;
+  }
+  &_work, &_more {
+    position: absolute;
+    bottom: 140px;
+    left: 30px;
+  }
+  &_more {
+    bottom: 35px;
+    text-decoration: underline;
+    color: $black;
+    font-weight: 400;
+    text-underline-offset: 4px ;
+  }
+  &_design {
+    margin: 0 30px 0 30px;
+    position: relative;
+  }
+  &_geodesy &_work, &_design &_work  {
+    bottom: 168px;
+  }
+}

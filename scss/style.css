@@ -1,0 +1,162 @@
+@import "../css/fonts.css";
+body {
+  margin: 0;
+  font-family: "TT Firs Neue", serif;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+  font-weight: 600;
+}
+
+h2 {
+  color: #2c2c2c;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+h3 {
+  color: #2c2c2c;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+h4 {
+  /*TODO*/
+}
+
+.text {
+  /*TODO*/
+}
+
+.send-button {
+  /*TODO*/
+}
+
+.button {
+  padding: 40px 0 76px 0;
+}
+.button button {
+  height: 53px;
+  min-width: 204px;
+  border-radius: 2px;
+  border: none;
+  background-color: #ffb816;
+  font-size: 16px;
+  font-family: "TT Firs Neue", serif;
+  font-weight: 600;
+  cursor: pointer;
+  color: #2c2c2c;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.menu_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0 8px 0;
+}
+.menu_item {
+  padding-right: 34px;
+  color: #2c2c2c;
+}
+
+.work {
+  padding: 92px 0 17px 0;
+}
+.work_wrapper {
+  background-color: #2c2c2c;
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 100%;
+  margin-bottom: 100px;
+}
+.work span {
+  color: #ffb816;
+  font-size: 14px;
+  font-weight: 600;
+}
+.work h1 {
+  margin: 0;
+  padding-top: 8px;
+  letter-spacing: 1px;
+}
+
+.phone {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.underline {
+  text-decoration: underline;
+  color: #606060;
+  font-size: 12px;
+}
+
+.services p {
+  color: #C9C9C9;
+  line-height: 25px;
+  margin-bottom: 0;
+}
+
+.chapter_wrapper {
+  margin-bottom: 100px;
+}
+
+.chapter {
+  text-align: center;
+  margin-bottom: 60px;
+  position: relative;
+}
+.chapter:after {
+  content: "";
+  width: 121px;
+  height: 26px;
+  background-color: #ffb816;
+  display: block;
+  margin: 0;
+  position: absolute;
+  left: 490px;
+  bottom: 1px;
+  z-index: -1;
+}
+
+.service {
+  display: flex;
+  justify-content: center;
+}
+.service_cadastral, .service_geodesy {
+  position: relative;
+}
+.service_work, .service_more {
+  position: absolute;
+  bottom: 140px;
+  left: 30px;
+}
+.service_more {
+  bottom: 35px;
+  text-decoration: underline;
+  color: #2c2c2c;
+  font-weight: 400;
+  text-underline-offset: 4px;
+}
+.service_design {
+  margin: 0 30px 0 30px;
+  position: relative;
+}
+.service_geodesy .service_work, .service_design .service_work {
+  bottom: 168px;
+}
+
+/*# sourceMappingURL=style.css.map */

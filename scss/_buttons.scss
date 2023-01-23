@@ -1,0 +1,18 @@
+@import "colors";
+
+.button {
+  padding: 40px 0 76px 0;
+
+  button {
+    height: 53px;
+    min-width: 204px;
+    border-radius: 2px;
+    border: none;
+    background-color: $orange;
+    font-size: 16px;
+    font-family: 'TT Firs Neue', serif;
+    font-weight: 600;
+    cursor: pointer;
+    color: $black;
+  }
+}

@@ -1,0 +1,41 @@
+@import "../css/fonts.css";
+@import "colors";
+
+body {
+  margin: 0;
+  font-family: 'TT Firs Neue', serif;
+}
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+  font-weight: 600;
+}
+h2 {
+  color: $black;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+h3 {
+  color: $black;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+h4 {
+  /*TODO*/
+}
+
+.text {
+  /*TODO*/
+}
+
+.send-button {
+  /*TODO*/
+}
