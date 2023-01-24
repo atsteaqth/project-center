@@ -135,7 +135,7 @@ h4 {
   display: flex;
   justify-content: space-between;
 }
-.card_wrapper .card {
+.card_wrapper .card_content {
   background-repeat: no-repeat;
   flex: 0 0 360px;
   height: 243px;

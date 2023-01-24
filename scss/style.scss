@@ -55,13 +55,14 @@
   line-height: 25px;
   margin-bottom: 0;
 }
-.chapter_wrapper {
-  margin-bottom: 100px;
+
 }
 .chapter {
   text-align: center;
   margin-bottom: 60px;
   position: relative;
+  &_wrapper {
+    margin-bottom: 100px;
   &:after {
     content: '';
     width: 121px;
@@ -77,7 +78,7 @@
 .card_wrapper {
   display: flex;
   justify-content: space-between;
-  .card {
+  .card_content {
     background-repeat: no-repeat;
     flex: 0 0 360px; //задается ширина для элемента внутри флекс контейнера
     height: 243px;
