@@ -26,6 +26,7 @@ h3 {
   font-size: 22px;
   font-weight: 600;
   letter-spacing: 0.02em;
+  margin: 0;
 }
 
 h4 {
@@ -124,39 +125,33 @@ h4 {
   width: 121px;
   height: 26px;
   background-color: #ffb816;
-  display: block;
-  margin: 0;
+  margin-left: -80px;
   position: absolute;
-  left: 490px;
-  bottom: 1px;
+  bottom: 0;
   z-index: -1;
 }
 
-.service {
+.card_wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
-.service_cadastral, .service_geodesy {
-  position: relative;
+.card_wrapper .card {
+  background-repeat: no-repeat;
+  flex: 0 0 360px;
+  height: 243px;
+  padding: 30px;
+  box-sizing: border-box;
 }
-.service_work, .service_more {
-  position: absolute;
-  bottom: 140px;
-  left: 30px;
+.card_wrapper .card_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
-.service_more {
-  bottom: 35px;
+.card_wrapper .card_more {
   text-decoration: underline;
-  color: #2c2c2c;
-  font-weight: 400;
   text-underline-offset: 4px;
-}
-.service_design {
-  margin: 0 30px 0 30px;
-  position: relative;
-}
-.service_geodesy .service_work, .service_design .service_work {
-  bottom: 168px;
+  color: #2c2c2c;
 }
 
 /*# sourceMappingURL=style.css.map */

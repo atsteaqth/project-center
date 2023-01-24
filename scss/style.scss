@@ -67,38 +67,32 @@
     width: 121px;
     height: 26px;
     background-color: $orange;
-    display: block;
-    margin: 0;
+    margin-left: -80px;
     position: absolute;
-    left: 490px;
-    bottom: 1px;
+    bottom: 0;
     z-index: -1;
   }
 }
-.service {
-  display: flex;
-  justify-content: center;
-  &_cadastral, &_geodesy {
-    position: relative;
-  }
-  &_work, &_more {
-    position: absolute;
-    bottom: 140px;
-    left: 30px;
-  }
-  &_more {
-    bottom: 35px;
-    text-decoration: underline;
-    color: $black;
-    font-weight: 400;
-    text-underline-offset: 4px ;
-  }
-  &_design {
-    margin: 0 30px 0 30px;
-    position: relative;
-  }
-  &_geodesy &_work, &_design &_work  {
-    bottom: 168px;
-  }
 
+.card_wrapper {
+  display: flex;
+  justify-content: space-between;
+  .card {
+    background-repeat: no-repeat;
+    flex: 0 0 360px; //задается ширина для элемента внутри флекс контейнера
+    height: 243px;
+    padding: 30px;
+    box-sizing: border-box;
+  }
+  .card_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  .card_more {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    color: $black;
+  }
 }
