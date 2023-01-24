@@ -1,0 +1,99 @@
+@import "colors";
+@import "base";
+@import "buttons";
+
+
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  &_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0 8px 0;
+  }
+  &_item {
+    padding-right: 34px;
+    color: $black;
+  }
+}
+
+.work {
+  padding: 92px 0 17px 0;
+  &_wrapper {
+    background-color: $black;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  span {
+    color: $orange;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  h1 {
+    margin: 0;
+    padding-top: 8px;
+    letter-spacing: 1px;
+  }
+}
+
+
+.phone {
+  font-weight: 600;
+  font-size: 22px;
+}
+.underline {
+  text-decoration: underline;
+  color: #606060;
+  font-size: 12px;
+}
+.services p {
+  color: #C9C9C9;
+  line-height: 25px;
+  margin-bottom: 0;
+}
+
+}
+.chapter {
+  text-align: center;
+  margin-bottom: 60px;
+  position: relative;
+  &_wrapper {
+    margin-bottom: 100px;
+  &:after {
+    content: '';
+    width: 121px;
+    height: 26px;
+    background-color: $orange;
+    margin-left: -80px;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+  }
+}
+
+.card_wrapper {
+  display: flex;
+  justify-content: space-between;
+  .card_content {
+    background-repeat: no-repeat;
+    flex: 0 0 360px; //задается ширина для элемента внутри флекс контейнера
+    height: 243px;
+    padding: 30px;
+    box-sizing: border-box;
+  }
+  .card_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  .card_more {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    color: $black;
+  }
+}
