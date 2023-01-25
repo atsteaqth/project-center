@@ -19,6 +19,7 @@ h2 {
   color: #2c2c2c;
   font-weight: 600;
   font-size: 40px;
+  letter-spacing: 0.02em;
 }
 
 h3 {
@@ -30,7 +31,11 @@ h3 {
 }
 
 h4 {
-  /*TODO*/
+  font-weight: 600;
+  font-size: 20px;
+  color: #2c2c2c;
+  letter-spacing: 0.02em;
+  margin: 0;
 }
 
 .text {
@@ -111,14 +116,13 @@ h4 {
   margin-bottom: 0;
 }
 
-.chapter_wrapper {
-  margin-bottom: 100px;
-}
-
 .chapter {
   text-align: center;
   margin-bottom: 60px;
   position: relative;
+}
+.chapter_wrapper {
+  margin-bottom: 100px;
 }
 .chapter:after {
   content: "";
@@ -152,6 +156,43 @@ h4 {
   text-decoration: underline;
   text-underline-offset: 4px;
   color: #2c2c2c;
+}
+
+.value {
+  text-align: center;
+  margin-bottom: 47px;
+  position: relative;
+}
+.value_wrapper {
+  margin-bottom: 100px;
+}
+.value:after {
+  content: "";
+  width: 373px;
+  height: 26px;
+  background-color: #ffb816;
+  margin-left: -379px;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+
+.offer_wrapper {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.offer_image {
+  margin-bottom: 21px;
+  height: 112px;
+}
+.offer_stages {
+  margin-bottom: 10px;
+}
+.offer_text {
+  font-weight: 300;
+  color: #606060;
+  line-height: 24px;
 }
 
 /*# sourceMappingURL=style.css.map */

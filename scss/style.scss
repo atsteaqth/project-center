@@ -56,13 +56,13 @@
   margin-bottom: 0;
 }
 
-}
 .chapter {
   text-align: center;
   margin-bottom: 60px;
   position: relative;
   &_wrapper {
     margin-bottom: 100px;
+  }
   &:after {
     content: '';
     width: 121px;
@@ -78,6 +78,7 @@
 .card_wrapper {
   display: flex;
   justify-content: space-between;
+
   .card_content {
     background-repeat: no-repeat;
     flex: 0 0 360px; //задается ширина для элемента внутри флекс контейнера
@@ -85,15 +86,56 @@
     padding: 30px;
     box-sizing: border-box;
   }
+
   .card_text {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
   }
+
   .card_more {
     text-decoration: underline;
     text-underline-offset: 4px;
     color: $black;
   }
+}
+.value {
+  text-align: center;
+  margin-bottom: 47px;
+  position: relative;
+  &_wrapper {
+    margin-bottom: 100px;
+  }
+  &:after {
+    content: '';
+    width: 373px;
+    height: 26px;
+    background-color: $orange;
+    margin-left: -379px;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    }
+}
+
+.offer {
+  &_wrapper {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  &_image {
+    margin-bottom: 21px;
+    height: 112px;
+  }
+  &_stages {
+    margin-bottom: 10px;
+  }
+  &_text {
+    font-weight: 300;
+    color: $opasity;
+    line-height: 24px;
+  }
+
 }
