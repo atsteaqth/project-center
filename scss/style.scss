@@ -51,7 +51,7 @@
   font-size: 12px;
 }
 .services p {
-  color: #C9C9C9;
+  color: $gray-500;
   line-height: 25px;
   margin-bottom: 0;
 }
@@ -134,7 +134,7 @@
   }
   &_text {
     font-weight: 300;
-    color: $opasity;
+    color: $gray-600;
     line-height: 24px;
   }
 
