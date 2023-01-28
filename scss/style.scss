@@ -18,14 +18,19 @@
     color: $black;
   }
 }
+.job_wrapper {
+  background-color: $black;
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-bottom: 100px;
+  padding: 92px 0 94px 0;
+}
 
 .work {
-  padding: 92px 0 17px 0;
   &_wrapper {
     background-color: $black;
     background-repeat: no-repeat;
     background-position: right;
-    width: 100%;
     margin-bottom: 100px;
   }
   span {
@@ -53,7 +58,7 @@
 .services p {
   color: $gray-500;
   line-height: 25px;
-  margin-bottom: 0;
+  margin-bottom: 40px;
 }
 
 .chapter {
@@ -139,3 +144,22 @@
   }
 
 }
+
+.work_wrapper {
+  padding: 76px 0;
+}
+.question {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  margin-bottom: 10px;
+  &_text {
+    color: $gray-500;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 64px;
+  }
+}
+
