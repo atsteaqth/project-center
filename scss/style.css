@@ -46,10 +46,7 @@ h4 {
   /*TODO*/
 }
 
-.button {
-  padding: 40px 0 76px 0;
-}
-.button button {
+button {
   height: 53px;
   min-width: 204px;
   border-radius: 2px;
@@ -60,6 +57,66 @@ h4 {
   font-weight: 600;
   cursor: pointer;
   color: #2c2c2c;
+}
+
+.input_name input, .input_phone input {
+  height: 57px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-family: "TT Firs Neue", serif;
+  font-weight: 400;
+  cursor: pointer;
+  color: #606060;
+}
+
+.input_name input {
+  min-width: 263px;
+}
+
+.input_phone input {
+  min-width: 360px;
+}
+
+.input_wrapper, .button_wrapper {
+  display: flex;
+}
+.input_wrapper .input_name, .button_wrapper .input_name {
+  margin: 0 30px 30px 0;
+}
+
+.button_wrapper {
+  align-items: center;
+}
+
+.button_section {
+  margin-right: 30px;
+}
+.button_section button {
+  height: 57px;
+  min-width: 263px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffb816;
+  font-size: 16px;
+  font-family: "TT Firs Neue", serif;
+  font-weight: 600;
+  cursor: pointer;
+  color: #2c2c2c;
+}
+
+.input_group label {
+  color: #c9c9c9;
+  font-weight: 400;
+  font-size: 12px;
+  user-select: none;
+}
+
+input::placeholder {
+  padding-left: 22px;
+  color: #606060;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .menu {
@@ -78,14 +135,18 @@ h4 {
   color: #2c2c2c;
 }
 
-.work {
-  padding: 92px 0 17px 0;
+.job_wrapper {
+  background-color: #2c2c2c;
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-bottom: 100px;
+  padding: 92px 0 94px 0;
 }
+
 .work_wrapper {
   background-color: #2c2c2c;
   background-repeat: no-repeat;
   background-position: right;
-  width: 100%;
   margin-bottom: 100px;
 }
 .work span {
@@ -113,7 +174,7 @@ h4 {
 .services p {
   color: #c9c9c9;
   line-height: 25px;
-  margin-bottom: 0;
+  margin-bottom: 40px;
 }
 
 .chapter {
@@ -193,6 +254,25 @@ h4 {
   font-weight: 300;
   color: #606060;
   line-height: 24px;
+}
+
+.work_wrapper {
+  padding: 76px 0;
+}
+
+.question {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  margin-bottom: 10px;
+}
+.question_text {
+  color: #c9c9c9;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 64px;
 }
 
 /*# sourceMappingURL=style.css.map */

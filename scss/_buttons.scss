@@ -1,12 +1,53 @@
 @import "colors";
 
-.button {
-  padding: 40px 0 76px 0;
 
+
+button {
+  height: 53px;
+  min-width: 204px;
+  border-radius: 2px;
+  border: none;
+  background-color: $orange;
+  font-size: 16px;
+  font-family: 'TT Firs Neue', serif;
+  font-weight: 600;
+  cursor: pointer;
+  color: $black;
+}
+
+.input_name input, .input_phone input {
+  height: 57px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-family: 'TT Firs Neue', serif;
+  font-weight: 400;
+  cursor: pointer;
+  color: $gray-600;
+
+}
+.input_name input {
+  min-width: 263px;
+}
+.input_phone input {
+  min-width: 360px;
+}
+
+.input_wrapper, .button_wrapper{
+  display: flex;
+  .input_name {
+    margin: 0 30px 30px 0;
+  }
+}
+.button_wrapper {
+  align-items: center;
+}
+.button_section {
+  margin-right: 30px;
   button {
-    height: 53px;
-    min-width: 204px;
-    border-radius: 2px;
+    height: 57px;
+    min-width: 263px;
+    border-radius: 5px;
     border: none;
     background-color: $orange;
     font-size: 16px;
@@ -14,5 +55,20 @@
     font-weight: 600;
     cursor: pointer;
     color: $black;
+  }
+}
+.input_group label {
+  color: $gray-500;
+  font-weight: 400;
+  font-size: 12px;
+  user-select: none;
+}
+
+input {
+  &::placeholder {
+    padding-left: 22px;
+    color:$gray-600;
+    font-weight: 400;
+    font-size: 16px;
   }
 }
