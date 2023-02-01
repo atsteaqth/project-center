@@ -1,6 +1,9 @@
 @import "colors";
 @import "base";
 @import "buttons";
+
+$width-stage: 224px;
+
 .menu {
   display: flex;
   justify-content: center;
@@ -161,6 +164,10 @@
   }
 }
 
+.about_wrapper{
+  background-repeat: no-repeat;
+  background-position: top 256px right;
+}
 .about {
   text-align: center;
   margin-bottom: 50px;
@@ -179,22 +186,88 @@
 
 .design_wrapper {
   display: flex;
+  margin-bottom: 74px;
 }
 .design {
   padding-right: 177px;
   h3 {
     margin-bottom: 20px;
   }
-  &_development {
-    margin-bottom: 22px;
-  }
-  &_task {
-    margin-bottom: 25px;
-  }
-  &_development, &_task, &_problem {
+  &_text {
     font-weight: 400;
     color:$gray-600;
     line-height: 24px;
+    margin-bottom: 24px;
+  }
+}
+.stages_wrapper {
+  padding-bottom: 380px;
+}
+
+.title_stage {
+  text-align: center;
+  margin-bottom: 50px;
+  position: relative;
+  margin-left: 172px;
+  &:after {
+    content: '';
+    width: 180px;
+    height: 26px;
+    background-color: $orange;
+    margin-left: -160px;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+  }
+}
+
+.stage {
+  display: flex;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0 0 52px 105px;
+  &:last-child{
+    .image::after{
+      display: none;
+    }
+  }
+  h3 {
+    font-weight: 700;
+  }
+  p {
+    opacity: 0.8;
+    color:$black;
+    font-size: 18px;
+  }
+  &_images {
+    flex: 0 0 $width-stage;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .image {
+      width: 52px;
+      height: 52px;
+      background-color:$black;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      border-radius: 50%;
+      position: relative;
+      &::after {
+        content: '';
+        width: 2px;
+        height: 40px;
+        background-color:$black ;
+        bottom: -63px;
+        position: absolute;
+      }
+    }
+  }
+  &_text {
+    flex: 0 0 calc(50% - $width-stage / 2);
+    text-align: right;
+    &--left {
+      text-align: left;
+    }
   }
 
 }
