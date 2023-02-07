@@ -3,6 +3,9 @@ body {
   margin: 0;
   font-family: "TT Firs Neue", serif;
 }
+body a {
+  text-decoration: none;
+}
 
 .container {
   width: 1140px;
@@ -119,6 +122,20 @@ input::placeholder {
   font-size: 16px;
 }
 
+.contact_button button {
+  height: 54px;
+  min-width: 208px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffb816;
+  font-size: 14px;
+  font-family: "TT Firs Neue", serif;
+  font-weight: 600;
+  cursor: pointer;
+  color: #2c2c2c;
+  letter-spacing: 0.07em;
+}
+
 .menu {
   display: flex;
   justify-content: center;
@@ -132,6 +149,9 @@ input::placeholder {
 }
 .menu_item {
   padding-right: 34px;
+  color: #2c2c2c;
+}
+.menu a {
   color: #2c2c2c;
 }
 
@@ -163,6 +183,9 @@ input::placeholder {
 .phone {
   font-weight: 600;
   font-size: 22px;
+}
+.phone a {
+  color: #2c2c2c;
 }
 
 .underline {
@@ -216,6 +239,9 @@ input::placeholder {
 .card_wrapper .card_more {
   text-decoration: underline;
   text-underline-offset: 4px;
+  color: #2c2c2c;
+}
+.card_wrapper a {
   color: #2c2c2c;
 }
 
@@ -278,12 +304,13 @@ input::placeholder {
 .about_wrapper {
   background-repeat: no-repeat;
   background-position: top 256px right;
+  padding-bottom: 50px;
 }
 
 .about {
   text-align: center;
-  margin-bottom: 50px;
   position: relative;
+  margin-bottom: 49px;
 }
 .about:after {
   content: "";
@@ -298,7 +325,7 @@ input::placeholder {
 
 .design_wrapper {
   display: flex;
-  margin-bottom: 74px;
+  margin-bottom: 77px;
 }
 
 .design {
@@ -315,7 +342,7 @@ input::placeholder {
 }
 
 .stages_wrapper {
-  padding-bottom: 380px;
+  margin-bottom: 68px;
 }
 
 .stages_wrapper_title {
@@ -381,6 +408,95 @@ input::placeholder {
 }
 .stage_text--left {
   text-align: left;
+}
+
+.contact_title {
+  text-align: center;
+  margin: 0 0 0 70px;
+  position: relative;
+}
+.contact_title h2 {
+  margin-bottom: 0;
+}
+.contact_title:after {
+  content: "";
+  width: 180px;
+  height: 26px;
+  background-color: #ffb816;
+  margin-left: -108px;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+
+.map_default {
+  margin-bottom: 90px;
+}
+
+.footer_wrapper {
+  display: flex;
+}
+.footer_wrapper .project {
+  margin-right: 118px;
+}
+.footer_wrapper .project_logo {
+  margin: 5px 0 26px 0;
+}
+.footer_wrapper .project_center {
+  font-weight: 400;
+  font-size: 14px;
+  color: #2c2c2c;
+  opacity: 0.8;
+  width: 175px;
+}
+.footer_wrapper .contacts {
+  margin-right: 156px;
+}
+.footer_wrapper .contacts a {
+  color: #2c2c2c;
+}
+.footer_wrapper .contacts_footer {
+  margin-bottom: 26px;
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: 0.07em;
+  color: #2c2c2c;
+  width: 233px;
+}
+.footer_wrapper .navigation {
+  width: 131px;
+  margin-right: 132px;
+}
+.footer_wrapper .navigation_title {
+  font-size: 20px;
+  color: #2c2c2c;
+  font-weight: 600;
+  margin: 2px 0 22px 0;
+}
+.footer_wrapper .navigation_text {
+  font-weight: 400;
+  color: #606060;
+  margin-bottom: 26px;
+  cursor: pointer;
+}
+.footer_wrapper .navigation a {
+  color: #606060;
+}
+.footer_wrapper .address_mail {
+  font-weight: 400;
+  font-size: 12px;
+  color: #606060;
+  margin: 2px 0 14px 0;
+}
+.footer_wrapper .address_text {
+  font-weight: 400;
+  font-size: 18px;
+  color: #2c2c2c;
+  margin-bottom: 14px;
+  line-height: 28px;
+}
+.footer_wrapper .address_text a {
+  color: #2c2c2c;
 }
 
 /*# sourceMappingURL=style.css.map */
