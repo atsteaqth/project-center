@@ -3,6 +3,9 @@ body {
   margin: 0;
   font-family: "TT Firs Neue", serif;
 }
+body a {
+  text-decoration: none;
+}
 
 .container {
   width: 1140px;
@@ -148,6 +151,9 @@ input::placeholder {
   padding-right: 34px;
   color: #2c2c2c;
 }
+.menu a {
+  color: #2c2c2c;
+}
 
 .job_wrapper {
   background-color: #2c2c2c;
@@ -177,6 +183,9 @@ input::placeholder {
 .phone {
   font-weight: 600;
   font-size: 22px;
+}
+.phone a {
+  color: #2c2c2c;
 }
 
 .underline {
@@ -230,6 +239,9 @@ input::placeholder {
 .card_wrapper .card_more {
   text-decoration: underline;
   text-underline-offset: 4px;
+  color: #2c2c2c;
+}
+.card_wrapper a {
   color: #2c2c2c;
 }
 
@@ -292,6 +304,7 @@ input::placeholder {
 .about_wrapper {
   background-repeat: no-repeat;
   background-position: top 256px right;
+  padding-bottom: 50px;
 }
 
 .about {
@@ -329,7 +342,7 @@ input::placeholder {
 }
 
 .stages_wrapper {
-  padding-bottom: 50px;
+  margin-bottom: 68px;
 }
 
 .stages_wrapper_title {
@@ -354,7 +367,7 @@ input::placeholder {
   font-family: "Ubuntu", sans-serif;
   margin: 0 0 52px 105px;
 }
-.stage:nth-child(7) .image::after {
+.stage:last-child .image::after {
   display: none;
 }
 .stage h3 {
@@ -399,7 +412,7 @@ input::placeholder {
 
 .contact_title {
   text-align: center;
-  margin: 69px 0 0 70px;
+  margin: 0 0 0 70px;
   position: relative;
 }
 .contact_title h2 {
@@ -436,10 +449,13 @@ input::placeholder {
   opacity: 0.8;
   width: 175px;
 }
-.footer_wrapper .contact {
+.footer_wrapper .contacts {
   margin-right: 156px;
 }
-.footer_wrapper .contact_footer {
+.footer_wrapper .contacts a {
+  color: #2c2c2c;
+}
+.footer_wrapper .contacts_footer {
   margin-bottom: 26px;
   font-weight: 600;
   font-size: 25px;
@@ -463,6 +479,9 @@ input::placeholder {
   margin-bottom: 26px;
   cursor: pointer;
 }
+.footer_wrapper .navigation a {
+  color: #606060;
+}
 .footer_wrapper .address_mail {
   font-weight: 400;
   font-size: 12px;
@@ -475,6 +494,9 @@ input::placeholder {
   color: #2c2c2c;
   margin-bottom: 14px;
   line-height: 28px;
+}
+.footer_wrapper .address_text a {
+  color: #2c2c2c;
 }
 
 /*# sourceMappingURL=style.css.map */
