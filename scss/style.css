@@ -136,13 +136,14 @@ input::placeholder {
   letter-spacing: 0.07em;
 }
 
-.price_button button {
-  content: "";
+.price_button {
   min-width: 35px;
   height: 35px;
   border: 2px solid #ffb816;
   border-radius: 5px;
-  background-color: #2c2c2c;
+  background-image: url("../images/arrow_up.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .menu {
@@ -559,7 +560,7 @@ input::placeholder {
 }
 
 .options {
-  display: flex;
+  display: none;
   flex-wrap: wrap;
   background-color: #ECECEC;
   padding: 40px 0 20px 40px;
@@ -576,6 +577,13 @@ input::placeholder {
 }
 .options_text {
   margin: 0 55px 30px 0;
+}
+
+.active .price_button {
+  background-image: url("../images/arrow_down.svg");
+}
+.active .options {
+  display: flex;
 }
 
 .work_side {
