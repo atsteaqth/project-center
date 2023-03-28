@@ -91,12 +91,11 @@ input {
 }
 
 .price_button {
-  button {
-    content: '';
     min-width: 35px;
     height: 35px;
     border: 2px solid $orange;
     border-radius: 5px;
-    background-color: $black;
-  }
+    background-image: url("../images/arrow_up.svg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
