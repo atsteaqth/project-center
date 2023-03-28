@@ -136,6 +136,15 @@ input::placeholder {
   letter-spacing: 0.07em;
 }
 
+.price_button button {
+  content: "";
+  min-width: 35px;
+  height: 35px;
+  border: 2px solid #ffb816;
+  border-radius: 5px;
+  background-color: #2c2c2c;
+}
+
 .menu {
   display: flex;
   justify-content: center;
@@ -497,6 +506,124 @@ input::placeholder {
 }
 .footer_wrapper .address_text a {
   color: #2c2c2c;
+}
+
+.side {
+  padding: 139px 0 133px 0;
+}
+.side_title h1 {
+  padding-top: 2px;
+}
+.side_text {
+  margin-bottom: 48px;
+}
+
+.list_title {
+  text-align: center;
+  position: relative;
+  margin-bottom: 45px;
+}
+.list_title::after {
+  content: "";
+  width: 154px;
+  height: 26px;
+  background-color: #ffb816;
+  margin-left: -153px;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+
+.price {
+  margin-bottom: 50px;
+}
+.price_design {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c2c2c;
+  border-radius: 5px;
+  padding: 24px 40px 25px 40px;
+}
+.price_text {
+  flex-basis: 75%;
+}
+.price_text h4 {
+  color: white;
+}
+.price_cash {
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 0.02em;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ECECEC;
+  padding: 40px 0 20px 40px;
+  border-radius: 5px;
+}
+.options_wrapper {
+  display: flex;
+}
+.options_square {
+  width: 16px;
+  height: 16px;
+  background-color: #ffb816;
+  margin-right: 10px;
+}
+.options_text {
+  margin: 0 55px 30px 0;
+}
+
+.work_side {
+  margin-bottom: 101px;
+}
+
+.example {
+  margin-bottom: 50px;
+}
+.example_title {
+  text-align: center;
+  position: relative;
+  margin-bottom: 49px;
+}
+.example_title::after {
+  content: "";
+  width: 243px;
+  height: 26px;
+  background-color: #ffb816;
+  margin-left: -238px;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+.example_image {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.example_text {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+.example_plan {
+  font-size: 14px;
+  font-weight: 400;
+  color: #606060;
+  line-height: 22px;
+}
+.example_home {
+  margin-bottom: 10px;
+}
+.example_wrapper {
+  flex: 0 0 360px;
+}
+.example .contact_side {
+  margin-bottom: 98px;
 }
 
 /*# sourceMappingURL=style.css.map */
